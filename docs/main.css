@@ -1,6 +1,6 @@
 /*Inspired from Coding with Julio's online tutorial at https://www.youtube.com/watch?v=T7PnWnTgusc*/
 
-/*Start Global*/  
+/*Start Global*/
 *{
     margin: 0;
     padding: 0;
@@ -45,12 +45,12 @@ img{
     max-width: 120rem;
     height: 100;
     margin: 0 auto;
-    position: relative; 
+    position: relative;
 }
 
 .section-heading{
     text-align: center;
-    margin-bottom: 10rem;    
+    margin-bottom: 10rem;
 }
 
 .section-heading h1{
@@ -69,7 +69,7 @@ img{
     bottom: -.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255,255,255, 0.75);    
+    background-color: rgba(255,255,255, 0.75);
 }
 
 .section-heading h1::before{
@@ -110,7 +110,7 @@ img{
 header{
     width: 100%;
     height: 100vh;
-} 
+}
 
 .top-nav{
     width: 100%;
@@ -121,7 +121,7 @@ header{
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
     /* temporary just to hide the nav */
-    top: -100vh; 
+    top: -100vh;
     /* prevent txt from siting on top of nav */
     z-index: 50;
 }
@@ -140,7 +140,7 @@ li{
 }
 
 .nav-link{
-    font-family: 'Roboto',sans-serif; 
+    font-family: 'Roboto',sans-serif;
     font-size: 4.5rem;
     padding: 1rem;
     color: rgba(255,255,255, .7);
@@ -153,7 +153,7 @@ li{
     /* In case of standardization of this property added standard property for future compatibility */
     /* background-clip: text; */
     -webkit-text-fill-color: transparent;
-     
+
 }
 
 .top-nav.open{
@@ -238,9 +238,9 @@ li{
 }
 
 .landing-text h6{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 300;
-    background: linear-gradient(to top, #fdda3c, #ff3434c7);
+    background: linear-gradient(to top, #fdda3c, #ee0034c7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     user-select: none;
@@ -331,7 +331,7 @@ li{
     font-size: 2rem;
     color: #fff7f7;
     letter-spacing: 2px;
-    margin: 2rem -2px 2rem 0;    
+    margin: 2rem -2px 2rem 0;
 }
 
 .icon-container{
@@ -340,8 +340,8 @@ li{
     border: 3px solid #fdda3c;
     background-color: #1c2424ab;
     margin-bottom: 2rem;
-    display: flex;   
-    transform: rotate(45deg); 
+    display: flex;
+    transform: rotate(45deg);
 }
 
 .icon-container i{
@@ -424,15 +424,15 @@ li{
     padding: 5rem;
     list-style: none;
     text-align: left;
-    width: 70%;  
-}   
+    width: 70%;
+}
 
 .timeline h1{
     font-size: 2.1rem;
     text-transform: uppercase;
     font-weight: 550;
     margin-bottom: 1rem;
-    opacity: .9;    
+    opacity: .9;
 }
 
 .timeline h2{
@@ -441,7 +441,7 @@ li{
     text-decoration: underline;
     font-weight: 450;
     margin-bottom: 0.8rem;
-    opacity: .7;    
+    opacity: .7;
 }
 
 .timeline p{
@@ -527,9 +527,9 @@ input[type="submit"]{
     transition: background-color 650ms;
 }
 
-input[type="submit"]:hover{   
+input[type="submit"]:hover{
     color: #221e3f;
-    background-color: #75fff8cc;    
+    background-color: #75fff8cc;
 }
 /*End contact*/
 
@@ -635,7 +635,7 @@ input[type="submit"]:hover{
     .timeline ul{
         margin: 0 0 0 auto;
     }
-    
+
     .timeline .date::before{
         left: -20rem;
     }
@@ -646,7 +646,7 @@ input[type="submit"]:hover{
 }
 
 @media screen and (max-width: 600px){
-    
+
     .menu-toggler{
          top: 2rem;
          right: 2rem;
