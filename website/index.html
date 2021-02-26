@@ -1,0 +1,474 @@
+<!--Personal website of Walter S. Valdez, and wanting to demonstrate web design capabilities, understanding and competent use of:
+    - HTML5           - Git
+    - CSS3            - Github (github.com/theunmanifested)
+    - JavaScript
+
+    Inspired by JulioCodes' "Responsive Personal Portfolio Website - HTML and CSS Tutorial" on https://www.youtube.com/watch?v=T7PnWnTgusc&list=PLgyPzV0SgIsMkrwLhFnfqbzVVqcgfs0Tz&index=9&t=4668s
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Walter S. Valdez Personal Website and Projects"/>
+    <meta property="og:description" content="This is Walter S. Valdez personal website and projects"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Walter S. Valdez Personal Website and Projects"/>
+    <meta name="image" property="og:image" content="https://www.aboutwalter.net/MyImages/thumbnail.png">
+    <title>About Walter Valdez</title>
+    <!-- credit to Michael Snik and his awesome animation-on-scroll functionality @ https://github.com/michalsnik/aos/commits?author=michalsnik-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <!--Navigation will differ depending on projects and products-->
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#career" class="nav-link">Career</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Porfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Proper legal name change checks, and update if needed-->
+        <div class="landing-text">
+            <h1>Walter S Valdez</h1>
+            <h6> Designer | Web/App/Software Developer | Tinkerer </h6>
+        </div>
+    </header>
+    <!--About. Keep updated.-->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <!--Personalized photo-->
+                <img src="MyImages/CollageMe.jpg" alt="Picture Collage of Walter Valdez Santos">
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Walter</h6>
+                </div>
+                <p>I am a student at <a class="in-Text-a" href="https://skilldistillery.com/programs/" target="_blank">Skill Distillery's Coding Bootcamp</a>, which is a Full Stack Java-based immersive learning experience that combines both Front-End and Back-End Technologies.</p>
+                <br>
+                <p>I am currently looking for Software/App/Web Development opportunities in a progressive, innovative and inclusive team.</p>
+                <br>
+                <p>I am Bilingual and 100% proficient in English and Spanish, and I am also learning German.</p>
+                <br>
+                <p>I am a first-generation American, father of two wonder children, and tech tinkerer by nature. I honorably
+                    served in the United States Army, and I thoroughly enjoyed being of service.</p>
+                <br>
+                <p>I was born and raised in Ciudad Acu&#241;a, Coahuila, M&#233;xico, which is famous for its wonderful
+                    people, proud history, and where director Robert Rodriguez filmed <a class="in-Text-a" href="https://www.imdb.com/title/tt0104815/" target="_blank">El Mariachi</a>,
+                    <a class="in-Text-a" href="https://www.imdb.com/title/tt0112851/" target="_blank">Desperado</a>, and
+                    <a class="in-Text-a" href="https://www.imdb.com/title/tt0116367/" target="_blank">From Dusk Till Dawn</a>.
+                </p>
+                <!-- <p>  (You Found an Easter Egg!!!!!)
+                    For the greater part of my life, I've always delved into Computer Systems, Web Development, Programming, and most things "tech".
+                    I've been fortunate to have been professionally exposed to wide spectrum of leadership-styles, geo-diverse working environments, and culturally-rich variety of teammates. I look forward to
+                    the next chapter in my life, and to embrace new opportunities
+                </p> -->
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.linkedin.com/in/walter-valdez-santos/" target="_blank" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/theunmanifested" target="_blank" class="icon-link">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/WalterValdezSantos" target="_blank" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/WalterVSantos" target="_blank" class="icon-link">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Career-->
+    <section class="career" id="career">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Career</h1>
+                <h6>Interests</h6>
+            </div>
+            <div class="my-skills">
+                <!--Development / Programming-->
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                        <div class="icon-container">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h1>Web/App/Software</h1>
+                        <p> Full-Stack Web/App and Software Developer focusing on intuitive, dynamic, fast, and responsive designs to create an positive experiences. Comfortable
+                            working in cross-platform teams from startups to medium/large business. Open for freelance-contract/remote work and in all time zones. Tech and Soft skills
+                            ready. Ownership of project/product/service and proud of my work.
+                            
+                        </p>
+                    </div>
+                    <!--Cloud & Systems Administration-->
+                    <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                        <div class="icon-container">
+                            <!--different icons available for free at https://fontawesome.com/icons?d=gallery&m=free -->
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h1>Development</h1>
+                        <p>Basically, I love building/developing things that work! Experience with: Java, C, JavaScript, HTML, CSS, SQL, MySQL, JDBC, JPA, JUnit, 
+                            Spring Framework (MVC, Boot), AngularJS, RESTful API, AWS, Azure, Git, GitHub, and Linux. Familiar with Microsoft Visual Studio, Eclipse, NetBeans,
+                            VS Code, Atom, Agile/Scrum methodology, Jira, Trello, and always ready to learn and apply new technologies.
+                        </p>
+                    </div>
+                <!--Cybersecurity-->
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container">
+                            <i class="fas fa-upload"></i>
+                    </div>
+                    <h1>Implementation</h1>
+                    <p>Having graduate from Microsoft Software and Systems Academy's Cybersecurity Administration program, able perform 
+                        collaboratively or independently, remotely, punctually, and securely in multi-platform scalable solutions, database management,
+                        and technical assistance. Comfortable with Linux, Mac and Windows Operating systems, Apache, IIS, Tomcat, CMS, AWS, Azure, and Google Cloud. 
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Portfolio. Body of work-->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>Recent Projects</h6>
+            </div>
+            <!--Portfolio Web Desing / Cloud Services & Dev-->
+            <div class="portfolio-item">
+                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                        <img src="MyImages/AzureVM_Sec.png" alt="Screenshot of Microsoft Azure Web Resources Virtual Machine">
+                    </div>
+                    <div class="portfolio-description" data-aos="fade-left" data-aos-delay="500">
+                        <h6>Cloud Services & Development</h6>
+                        <h1>Microsoft Azure Cloud Services</h1>
+                        <p>Using one of the multitud of  <a class="in-Text-a" href="https://www.microsoft.com/en-us/learning/azure-training.aspx" target="_blank">Microsoft Azure's training</a>
+                           and learning modules, I have set up different configurations of Virtual Networks (VNets), Virtual Machines(VMs), and applied Network Segurity Groups (NSGs).
+                        </p>
+                        <br>
+                        <p>By either using the free tier or student subscription, I am able to freely work with 750 of computing hours a month, 32GB of secured disk storage, 5GB of file storage,
+                           with a Standard DS1 v2 (1 vcpus, 3.5 GiB memory). To try it out, just click on the link below!
+                        </p>
+                        <br>
+                        <p>
+                            <a href="https://azure.microsoft.com/en-us/free/" class="ctb" target="_blank">Microsoft Azure Free</a>
+                        </p>
+                    </div>
+            </div>
+            <!--RaspberryPi / Face-Recognition / OpenCV-->
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="700">
+                    <!--Similiar to Svcs but more in detail-->
+                    <h6>IT Projects</h6>
+                    <h1>Raspberry Pi Real-Time Face Recognition and Identification</h1>
+                    <p>
+                        An interactive and fun project that has the power of the
+                        <a class="in-Text-a" href="https://opencv.org" target="_blank">OpenCV (Open Source Computer Vision)</a>
+                        library that is custom made for real-time applications and machine perception, and the
+                        officially supported Rasbian OS from the <a class="in-Text-a" href="https://www.raspberrypi.org/about/" target="_blank">Raspberry Pi Foundation</a>.
+                    </p>
+                    <br>
+                    <p>
+                        The hardware incldes a Raspberry Pi 4 4GB Model B with 1.5GHz 64-bit quad-core ARMv8 CPU, and
+                        a Raspberry Pi Mini Camera Video Module 5 Megapixels 1080p Sensor OV5647 Webcam.
+                    </p>
+                    <p>
+                        <a href="https://github.com/opencv/opencv/" class="cta" target="_blank">OpenCV Repo on GitHub</a>
+                    </p>
+                </div>
+                <!-- rm has-margin-right -->
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="900">
+                    <img src="MyImages/collageMine2.jpg" alt="RaspberryPi collage with six photos">
+                </div>
+            </div>
+            <!--Portfolio Cloud Administration-->
+            <div class="portfolio-item">
+                    <!-- Cloud Admin / AWS EC2 Instance-->
+                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1100">
+                        <img src="MyImages/EC2VM_Sec.png" alt="Screenshot of Amazon Web Services Virtual Machine">
+                    </div>
+                    <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1300">
+                        <h6>Email and Webserver</h6>
+                        <h1>AWS EC2 Cloud Administrating</h1>
+                        <p>
+                            Running a t2.micro Elastic Cloud Compute instance with Red Hat Enterprise Linux 8 Operating System.
+                            This VM is functioning both as my personal web and email server.
+                        </p>
+                        <br>
+                        <p>
+                            The VM's status is being performed by using AWS Health Checks and Monitoring, which facilitiates the general
+                            maintenance and upkeep of the instance. Security features handled by AWS Cloud Security, and Security Groups.
+                        </p>
+                        <p>
+                            Feel free to email me directly at
+                            <a href="mailto:walter@aboutwalter.net" target="_top" class="cta">walter@aboutwalter.net</a> at any time!
+                        </p>
+                    </div>
+            </div>
+            <!--Power Platform PowerApps SQAD-->
+            <div class="portfolio-item">
+                    <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                        <!--Similiar to Svcs but more in detail-->
+                        <h6>MS Power Platform</h6>
+                        <h1>PowerApp "Short Quote a Day" App</h1>
+                        <p>Became increasingly interested in Microsoft's <a class="in-Text-a" href="https://powerplatform.microsoft.com/en-us/" target="_blank">Power Platform</a> that
+                            includes Microsoft Flow (automated workflows), PowerBI (business analytics service), and PowerApps (custom applications).
+                        </p>
+                        <br>
+                        <p>
+                            Created a simple yet functional app named "Short Quote a Day" that enables the user to save a meaningful short quote worth saving.
+                        </p>
+                        <br>
+                        <p>
+                            By downloading the <a class="in-Text-a" href="https://powerapps.microsoft.com/en-us/downloads/" target="_blank">PowerApps Mobile</a> app,
+                            I can add a short quote a day, and the app then updates an MS Excel table on OneDrive. The table's data can then
+                            be easily exported for further use or sharing purposes.
+                        </p>
+                        <p>
+                            <a href="https://powerapps.microsoft.com/en-us/" class="cta" target="_blank">Learn and Create Your Own MS PowerApps</a>
+                        </p>
+                    </div>
+                    <!-- rm has-margin-right -->
+                    <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1700">
+                        <img src="MyImages/PowerAppApp.jpg" alt="Scren shots collage with twelve photos">
+                    </div>
+                </div>
+
+
+            <!--Web Development / The Website-->
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1900">
+                    <!--Similiar to Svcs but more in detail-->
+                    <h6>Web Development</h6>
+                    <h1>This Website!</h1>
+                    <p>
+                        Responsive, dynamic, and contemporary website, which is hosted on my EC2 by AWS
+                        virtual machine, and uses JavaScript, HTML5, CSS3 (Flexbox, Grid and Animation-On-Scroll),
+                        Git, Github, and with plenty of help from Stack Overflow.
+                    </p>
+                    <br>
+                    <p>
+                        Mostly self-taught, but heavily benefited from many wonderful web design online courses and
+                        tutorials like Free Code Camp, Learning Tree, AWS and Azure Web Design, and YouTube's Julio Codes.
+                    </p>
+                    <p>
+                        <a href="https://github.com/theunmanifested/Walter_Portfolio" class="cta" target="_blank">My Website's Github Repo</a>
+                    </p>
+                </div>
+                <!-- rm has-margin-right -->
+                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="2100">
+                    <img src="MyImages/code.png" alt="Computer Programming Code">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Experience-->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Experience</h1>
+                <h6>Past and Present</h6>
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                <ul>
+                    <!--Ascending job list-->
+                    <!-- Skill Distillery Full-Stack Coding Bootcamp -->
+                    <li class="date" data-date="2021 - Present">
+                        <h1>Skill Distillery Coding Bootcamp</h1>
+                        <h2>Full-Stack Development with Java Coding Bootcamp - FT Student</h2>
+                        <br>
+                        <p>Focused in a fully immersive, dynamic, and hands-on coding bootcamp encompassing on-demand technical skills.
+                        </p>
+                        <br>
+                        <p>Created fully-functioning Web Applications, Websites, and Java apps for many different industrial sectors.</p>
+                        <br>
+                        <p>Launched multi-platform projects both individually and in collaborative teams with Agile methodology, Test-Driven Development and Pair Programming.</p>
+                        <br>
+                    </li>
+                     <!-- Kasasa -->
+                     <li class="date" data-date="2019 - 2020">
+                        <h1>Kasasa</h1>
+                        <h2>Technical Enginneer - Implementation/Upgrades Team</h2>
+                        <br>
+                        <p>Proudly contributed at this financial tech and software company, 
+                            <a class="in-Text-a" href="https://www.kasasa.com/who-we-are" target="_blank">Kasasa, LTD</a> as an implementor of new clients and upgrade of 
+                            software of existing clients.
+                        </p>
+                        <br>
+                        <p>Troubleshoted time-sensitve data delivery, systems connections, and proper fucntion of propriatary software.</p>
+                        <br>
+                        <p>Provided continous technical support by remotely connecting to client's servers and tech-translated any upgrades, temporary issues, and permanent software changes.</p>
+                        <br>
+                    </li>
+                    <!-- MSSA / UTSA -->
+                    <li class="date" data-date="2019 - 2019">
+                        <h1>Microsoft Software & Systems Academy</h1>
+                        <h2>Technical Management / Cloud/Systems/Cybersecurity Administration - FT Student</h2>
+                        <br>
+                        <p>Developed a responsive website with HTML, CSS, JavaScript to combine my love of technology with my creative skills and to showcases personal projects.
+                        </p>
+                        <br>
+                        <p>Implemented a Raspberry Pi 4 Real-Time Face Detection project with Raspbian Buster OS.</p>
+                        <br>
+                        <p>Deployed Azure and AWS VMs with RHEL 8 OS hosting my personal email/web servers.</p>
+                        <br>
+                    </li>
+                    <!-- UTSA -->
+                    <li class="date" data-date="2017 - 2019">
+                            <h1>University of Texas at San Antonio - San Antonio, TX </h1>
+                            <h2>Bachelor of Science in Computer Science - Selected Coursework - GPA 3.75</h2>
+                    </li>
+                    <!-- GMR Transcription -->
+                    <li class="date" data-date="2016 - 2019">
+                        <h1>GMR Transcription</h1>
+                        <h2>Online/Remote Transcriptionist</h2>
+                        <br>
+                        <p>Achieved over 95% transcribing accuracy and received Top Quality Employee status.
+                        </p>
+                        <br>
+                        <p>Productively complied 100% with company’s geo-sensitive security policies to include the
+                            <a class="in-Text-a" href="https://eugdpr.org" target="_blank">GDPR</a> for European clients.
+                        </p>
+                        <br>
+                        <p>Reduced delivery time by 25% resulting in higher tier workload and commendations from supervisors.</p>
+                    </li>
+                    <!-- TWC -->
+                    <li class="date" data-date="2015 - 2016">
+                        <h1>Texas Workforce Commission</h1>
+                        <h2>Information Specialist II</h2>
+                        <br>
+                        <p>Optimized business-critical MS Access database with over 2 million records dating back to 1996, and still in
+                                use today, which helped create 86,890 jobs.
+                        </p>
+                        <br>
+                        <p>Organized successful partnerships on grants reaching up to $500,000 a year per business for over 90
+                           Texas companies with an annual average of over $20,000,000 from state funds for the
+                           <a class="in-Text-a" href="https://twc.texas.gov/partners/skills-development-fund" target="_blank">Skills Development Fund (SDF)</a>
+                           program through the Office of the Employer Initiatives.
+                        </p>
+                        <br>
+                        <p>Orchestrated 5 marketing events yielding over 100 companies actively participating in the SDF program.
+                        </p>
+                    </li>
+                    <!-- UoP -->
+                    <li class="date" data-date="2013 - 2015">
+                            <h1>University of Phoenix - Austin,TX Campus</h1>
+                            <h2>Bachelor of Science in Business - GRADUATED - GPA 3.46</h2>
+                    </li>
+                    <!-- US Army -->
+                    <li class="date" data-date="2007 - 2013">
+                            <h1>United States Army</h1>
+                            <h2>Technical and Administrative Specialist</h2>
+                            <br>
+                            <p>Optimized record-keeping practices of 12,000+ personnel ensuring real-time critical information to the
+                               Department of State’s emergency evacuation measure called the
+                               <a class="in-Text-a" href="https://8tharmy.korea.army.mil/19esc/neo/" target="_blank">Non-Combatant Evacuation Operation (NEO)</a>,
+                               streamlining disaster readiness and received personal commendations from senior leadership.
+                            </p>
+                            <br>
+                            <p>Administered security, maintenance, and surveillance on
+                            <a class="in-Text-a" href="https://home.army.mil/humphreys/index.php/about/Garrison/DPTMS/libby-army-airfield" target="_blank">Desiderio Army Airfield</a>,
+                            the largest US Army airfield outside of the continental United States.
+                            </p>
+                            <br>
+                            <p>Volunteered as an English teacher to 6 South Korean military members improving communications.
+                            </p>
+                            <br>
+                            <p>Planned offsite training with over 1,100 personnel producing repeated commendations by senior staff and
+                               upper management while stationed at
+                               <a class="in-Text-a" href="https://8tharmy.korea.army.mil/19esc/neo/" target="_blank">US Army Garrison Fort Lee</a> in Virginia.
+                            </p>
+                            <br>
+                            <p>Designed a record-keeping database resulting in reducing administrative costs by 30% within 3 months.
+                            </p>
+                            <br>
+                            <p>Formalized accurate inventory documentation of a team of over 30 personnel as an office automation clerk.
+                            </p>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Contact-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact Me</h1>
+                <h6>Let's get to work!</h6>
+
+            </div>
+            <div class="portfolio-description">
+                <p style="text-align:center; font-size:3rem">
+                    Email me at
+                    <a href="mailto:waltersvaldez1980@gmail.com" target="_top" class="cta" style="font-size: 4rem">waltersvaldez1980@gmail.com</a> any time!
+                </p>
+            </div>
+            <!-- method for form might be changed to POST pending test -->
+            <!-- <form action="mailto:walter@aboutwalter.net" method="get" enctype="text/plain" data-aos="fade-up" data-aos-delay="300">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form> -->
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2021 Walter S. Valdez</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+<!--
+    Some of the code/functionality can be attributed to:
+    - JulioCodes at https://www.youtube.com/channel/UCeHWTyAKBv_WnW8gsEKGECw
+    - Michał Sajnóg's Animation On Scroll - https://github.com/michalsnik/aos
+    - Fonticons, Inc at https://fontawesome.com
+-->
